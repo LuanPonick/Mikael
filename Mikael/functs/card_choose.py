@@ -1,9 +1,9 @@
-from Mikael.models.card_model import Card
+from Mikael.models.card_model import card
 
-def choose_move (board_card: Card, hand_cards: list[Card]) -> Card | None: 
+def choose_move (board_card: card, hand_cards: list[card]) -> card | None: 
     # Input  board_card : Referente a carta que esta jogada. A logica da jogada levara em consideracao essa carta.
     # Input  hand_cards : As cartas que devem ser levadas em consideracao para executar a jogada.
-    # Output Card      : Carta que deve e pode ser jogada.
+    # Output card      : Carta que deve e pode ser jogada.
 
     # Prioridades da jogada Cor, numero.
 

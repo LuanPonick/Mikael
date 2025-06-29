@@ -1,4 +1,4 @@
-class Card:
+class card:
     def __init__(self, cor: str, numero: int, posicao: int):
         self.cor = cor
         self.numero = numero

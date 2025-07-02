@@ -1,5 +1,5 @@
-from Mikael.models.card_model  import card
-from Mikael.functs.card_choose import choose_move
+from models.card_model  import card
+from functs.card_choose import choose_move
 
 board: card = card(cor="verde", numero=5, posicao= 0)
 Hand = [

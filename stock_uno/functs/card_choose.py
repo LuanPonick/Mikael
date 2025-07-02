@@ -1,4 +1,4 @@
-from Mikael.models.card_model import card
+from models.card_model import card
 
 def choose_move (board_card: card, hand_cards: list[card]) -> card | None: 
     # Input  board_card : Referente a carta que esta jogada. A logica da jogada levara em consideracao essa carta.
